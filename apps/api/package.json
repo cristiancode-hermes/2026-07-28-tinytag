@@ -1,0 +1,41 @@
+{
+  "name": "tinytag-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "../../node_modules/.bin/tsc",
+    "start": "node dist/main.js",
+    "start:dev": "../../node_modules/.bin/tsc && node dist/main.js"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.0.0",
+    "@nestjs/config": "^4.0.4",
+    "@nestjs/core": "^11.0.0",
+    "@nestjs/jwt": "^11.0.0",
+    "@nestjs/passport": "^11.0.0",
+    "@nestjs/platform-express": "^11.0.0",
+    "@nestjs/swagger": "^11.0.0",
+    "@nestjs/typeorm": "^11.0.0",
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^12.0.0",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.1",
+    "typeorm": "^1.0.0",
+    "uuid": "^10.0.0",
+    "useragent": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.0.0",
+    "@types/passport-jwt": "^4.0.1",
+    "@types/uuid": "^10.0.0",
+    "@types/useragent": "^2.3.4",
+    "typescript": "^6.0.0"
+  }
+}
